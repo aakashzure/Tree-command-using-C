@@ -10,29 +10,12 @@ Options:
 			in the manner such that the directories are shown at an indented
 			distance of |----- and the files in that directory are shown 
 			below the directory.		
-		Example: /Desktop$ ./project 
-			output: |-----
-				|-----file1 inside path folder
-				|	|-----folder1 inside path folder
-				|	|	|-----folder inside above folder
-				|-----file2 inside path folder
-				|-----file3
-				|	|-----folder2 inside path folder
-				|	|-----file inside folder2
-				|	|-----file inside folder2
-				|	|-----file inside folder2
-				|	|-----file inside folder2
-				|	|-----file inside folder2
-				|-----file4
-				|-----Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf
-				|-----ex3.c
-				|-----fex
-
-	2) -d -		This option displays the folders inside the path given
-		Example : /Desktop$ ./project -d
-			output: |-----
-				|	|-----folder1 inside path folder
-				|	|	|-----folder inside above folder
-				|	|-----folder2 inside path folder
-				
 		
+	2) -d -		This option displays the folders inside the path given
+				
+	3) -f -		Print the full path prefix for each file.          
+  	
+	4) -l -         Follow symbolic links like directories.           		
+		
+	5) -i -         Don't print indentation lines.
+	
