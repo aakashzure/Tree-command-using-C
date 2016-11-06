@@ -1,0 +1,38 @@
+This is the implementation of tree command in linux using C
+Usage:
+	./project pathname/absolute_paths -options
+
+Special cases:
+	You can also use the options for the command with combined usage.
+
+Options:
+	1)no option - 	in this mode the command displays the directories and the files
+			in the manner such that the directories are shown at an indented
+			distance of |----- and the files in that directory are shown 
+			below the directory.		
+		Example: /Desktop$ ./project 
+			output: |-----
+				|-----file1 inside path folder
+				|	|-----folder1 inside path folder
+				|	|	|-----folder inside above folder
+				|-----file2 inside path folder
+				|-----file3
+				|	|-----folder2 inside path folder
+				|	|-----file inside folder2
+				|	|-----file inside folder2
+				|	|-----file inside folder2
+				|	|-----file inside folder2
+				|	|-----file inside folder2
+				|-----file4
+				|-----Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf
+				|-----ex3.c
+				|-----fex
+
+	2) -d -		This option displays the folders inside the path given
+		Example : /Desktop$ ./project -d
+			output: |-----
+				|	|-----folder1 inside path folder
+				|	|	|-----folder inside above folder
+				|	|-----folder2 inside path folder
+				
+		
