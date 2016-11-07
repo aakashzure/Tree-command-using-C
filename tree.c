@@ -1,5 +1,5 @@
 /*****************************************************************************
- * Copyright (C) Zure Aakash Vasantrao 
+ * Copyright (C) Zure Aakash Vasantrao zureav16.comp@coep.ac.in
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
