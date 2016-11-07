@@ -18,4 +18,3 @@ Options:
 	4) -l -         Follow symbolic links like directories.           		
 		
 	5) -i -         Don't print indentation lines.
-	
