@@ -29,7 +29,7 @@ format. The command does work with combination with each other too. There are 5 
 		Usage	: ./project pathanme -i
 
 	6) -h -		Displays help.
-		Usage ./project -h
+		Usage 	:/project -h
 
 	COLOR Codes:
 	1) Directories are displayed in BLUE color.
