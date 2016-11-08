@@ -27,8 +27,8 @@ This project is to impement the tree command using C language. This command disp
 
 	5) -i -         This option displays the files and folders name without any indentation. i.e. not in 						hierarchical structure. This command is more effective when used in combination with -f option.						Usage : ./project Pathname -i
 	
-		6) -h -		This option prints help.
-					Usage : ./project -h
+	6) -h -			This option prints help.
+				  Usage : ./project -h
 	
 	COLOR Codes:
 	1) Directories are displayed in BLUE color.
