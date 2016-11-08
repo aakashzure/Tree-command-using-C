@@ -364,6 +364,11 @@ int main(int argc, char *argv[]){
 			printf("%d files and %d folders\n", fcount, dcount);
 			return 0;
 		}
+		if(strcmp(argv[2],"-l") == 0){
+			files(argv[1]);
+			printf("%d files and %d folders\n", fcount, dcount);
+			return 0;
+		}
 	}
 	else {
 		if((strcmp(argv[2],"-f") && strcmp(argv[3],"-i")) == 0){
