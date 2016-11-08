@@ -27,6 +27,9 @@ format. The command does work with combination with each other too. There are 5 
 	5) -i -         This option displays the files and folders name without any indentation. i.e. not in hierarchical structure.
 			this command is more effective when used in combination with -f option 
 	
+	6) -h -		This option displays help.
+		Usage	: ./project -h
+
 	COLOR Codes:
 	1) Directories are displayed in blue color.
 	2) the graphic files like jpg, png, tif, bmp, mp4, avi, mkv, flv etc are displayed in magneta color.
