@@ -32,6 +32,8 @@
 #define KMAG  "\x1B[35m"
 #define KCYN  "\x1B[36m"
 #define KWHT  "\x1B[37m"
+int check(char *typechar);
+
 int a = -1;			/*integer to traverse through levels of directories*/
 int fcount = 0, dcount = 0;	/*Counts no. of files and folders*/
 int chk = 0;			/*To check file types*/
