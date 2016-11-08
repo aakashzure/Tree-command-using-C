@@ -13,20 +13,23 @@ This project is to impement the tree command using C language. This command disp
 			            in the manner such that the directories are shown at an indented
 		             	distance of |----- and the files in that directory are shown 
 		            	below the directory.		
-		          Usage 	: ./project 
+		          Usage : ./project 
 			
 	2) -d -		      This option displays only the directories inside the given directory path.
 		          Usage	 : ./project pathname -d
 		
 	3) -f -		      This option prints the directories and files in hierarchical order. but instead of just printing the name of 
 			            the directory or file, it prints the complete path of the file or folder.  
-		          Usage 	: ./project pathname -f      
+		          Usage : ./project pathname -f      
   	
 	4) -l -         Follow symbolic links like directories.           		
-		          Usage 	: ./project pathanme -l
+		          Usage : ./project pathanme -l
 
-	5) -i -         This option displays the files and folders name without any indentation. i.e. not in hierarchical structure.
-			            this command is more effective when used in combination with -f option 
+	5) -i -         This option displays the files and folders name without any indentation. i.e. not in 						hierarchical structure. This command is more effective when used in combination with -f option.
+			Usage	: ./project Pathname -i
+	
+	6) -h -		This option prints help.
+			Usage : ./project -h
 	
 	COLOR Codes:
 	1) Directories are displayed in BLUE color.
