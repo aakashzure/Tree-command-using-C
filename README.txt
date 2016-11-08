@@ -28,7 +28,7 @@ format. The command does work with combination with each other too. There are 5 
 			this command is more effective when used in combination with -f option 
 	
 	COLOR Codes:
-	1) Directories are displayed in BLUE color.
-	2) the graphic files like jpg, png, tif, bmp, mp4, avi, mkv, flv etc are displayed in MAGNETA color.
-	3) The archives and compressed file types are displayed with RED color.
-	4) The text based documents files like pdf, ppt, doc, docx and executables are displayed in GREEn color.
+	1) Directories are displayed in blue color.
+	2) the graphic files like jpg, png, tif, bmp, mp4, avi, mkv, flv etc are displayed in magneta color.
+	3) The archives and compressed file types are displayed with red color.
+	4) The text based documents files like pdf, ppt, doc, docx and executables are displayed in green color.
